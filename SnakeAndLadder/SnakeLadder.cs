@@ -10,6 +10,14 @@ namespace SnakeAndLadder
     {
         // UC-1
         int playerPosition = 0; // starting position
-
+        // UC-2
+        Random random = new Random();
+        public void DieRoll()
+        {
+            int die = random.Next(1, 7);
+            Console.WriteLine(die);
+            
+        }
+        
     }
 }
